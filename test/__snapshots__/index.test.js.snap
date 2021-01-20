@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`disabled sourcemaps 1`] = `"{\\"version\\":3,\\"sources\\":[\\"./test/fixtures/basic.js\\"],\\"names\\":[],\\"mappings\\":\\";;;;AAAA,0BAA0B,8BAA8B,oDAAoD,yCAAyC,uBAAuB,kBAAkB,wCAAwC,KAAK,OAAO,gBAAgB,MAAM,iBAAiB,MAAM,OAAO,gBAAgB,MAAM,mBAAmB,QAAQ,KAAK,2BAA2B,OAAO,gBAAgB,MAAM,iBAAiB,MAAM,OAAO,gBAAgB,MAAM,iBAAiB,SAAS,aAAa,IAAI,YAAY,IAAI,MAAM,KAAK,iBAAiB,+HAA+H,uBAAuB,yBAAyB,MAAM,0DAA0D,WAAW,oBAAoB,KAAK,IAAI,mBAAmB,6GAA6G,yCAAyC,EAAE,gDAAgD,6BAA6B,mCAAmC;AACjlC,0BAA0B,yBAAyB,uBAAuB,iBAAiB,wBAAwB,yBAAyB,MAAM,wBAAwB,wBAAwB,gB\\",\\"file\\":\\"main.js\\",\\"sourcesContent\\":[\\"function cov_1v2zerd2hz(){var path=\\\\\\"/fixtures/basic.js\\\\\\";var hash=\\\\\\"18a5d36ad7adcff4303d3080381941521f7cf4fc\\\\\\";var global=new Function(\\\\\\"return this\\\\\\")();var gcv=\\\\\\"__coverage__\\\\\\";var coverageData={path:\\\\\\"/fixtures/basic.js\\\\\\",statementMap:{\\\\\\"0\\\\\\":{start:{line:1,column:0},end:{line:6,column:2}},\\\\\\"1\\\\\\":{start:{line:3,column:4},end:{line:3,column:18}}},fnMap:{\\\\\\"0\\\\\\":{name:\\\\\\"(anonymous_0)\\\\\\",decl:{start:{line:2,column:2},end:{line:2,column:3}},loc:{start:{line:2,column:8},end:{line:4,column:3}},line:2}},branchMap:{},s:{\\\\\\"0\\\\\\":0,\\\\\\"1\\\\\\":0},f:{\\\\\\"0\\\\\\":0},b:{},inputSourceMap:{version:3,sources:[\\\\\\"../../utils\\\\\\"],names:[\\\\\\"module\\\\\\",\\\\\\"exports\\\\\\",\\\\\\"Foo\\\\\\",\\\\\\"bar\\\\\\"],mappings:\\\\\\"AAAAA,MAAM,CAACC,OAAP,GAAiB,MAAMC,GAAN,CAAU;AACzBC,EAAAA,GAAG,GAAG;AACJ,WAAO,CAAC,CAAC,IAAT;AACD;;AAHwB,CAA3B\\\\\\",sourcesContent:[\\\\\\"module.exports = class Foo {\\\\\\\\n  bar() {\\\\\\\\n    return !!this;\\\\\\\\n  }\\\\\\\\n};\\\\\\\\n\\\\\\"],sourceRoot:\\\\\\"\\\\\\"},_coverageSchema:\\\\\\"1a1c01bbd47fc00a2c39e90264f33305004495a9\\\\\\",hash:\\\\\\"18a5d36ad7adcff4303d3080381941521f7cf4fc\\\\\\"};var coverage=global[gcv]||(global[gcv]={});if(!coverage[path]||coverage[path].hash!==hash){coverage[path]=coverageData;}var actualCoverage=coverage[path];{// @ts-ignore\\\\ncov_1v2zerd2hz=function(){return actualCoverage;};}return actualCoverage;}cov_1v2zerd2hz();cov_1v2zerd2hz().s[0]++;module.exports=class Foo{bar(){cov_1v2zerd2hz().f[0]++;cov_1v2zerd2hz().s[1]++;return!!this;}};\\"],\\"sourceRoot\\":\\"\\"}"`;
+
+exports[`disabled sourcemaps: errors 1`] = `Array []`;
+
+exports[`disabled sourcemaps: warnings 1`] = `Array []`;
+
+exports[`instrument code 1`] = `
+"(window[\\"webpackJsonp\\"] = window[\\"webpackJsonp\\"] || []).push([[1],[
+/* 0 */
+/***/ (function(module, exports) {
+
+function cov_1v2zerd2hz(){var path=\\"/fixtures/basic.js\\";var hash=\\"eb18e6d2a99248f395587e7b538f891e87d06e4f\\";var global=new Function(\\"return this\\")();var gcv=\\"__coverage__\\";var coverageData={path:\\"/fixtures/basic.js\\",statementMap:{\\"0\\":{start:{line:1,column:0},end:{line:6,column:2}},\\"1\\":{start:{line:3,column:4},end:{line:3,column:18}}},fnMap:{\\"0\\":{name:\\"(anonymous_0)\\",decl:{start:{line:2,column:2},end:{line:2,column:3}},loc:{start:{line:2,column:8},end:{line:4,column:3}},line:2}},branchMap:{},s:{\\"0\\":0,\\"1\\":0},f:{\\"0\\":0},b:{},_coverageSchema:\\"1a1c01bbd47fc00a2c39e90264f33305004495a9\\",hash:\\"eb18e6d2a99248f395587e7b538f891e87d06e4f\\"};var coverage=global[gcv]||(global[gcv]={});if(!coverage[path]||coverage[path].hash!==hash){coverage[path]=coverageData;}var actualCoverage=coverage[path];{// @ts-ignore
+cov_1v2zerd2hz=function(){return actualCoverage;};}return actualCoverage;}cov_1v2zerd2hz();cov_1v2zerd2hz().s[0]++;module.exports=class Foo{bar(){cov_1v2zerd2hz().f[0]++;cov_1v2zerd2hz().s[1]++;return!!this;}};
+
+/***/ })
+],[[0,0]]]);"
+`;
+
+exports[`sourcemap files on by default 1`] = `"{\\"version\\":3,\\"sources\\":[\\"../../utils\\"],\\"names\\":[\\"module\\",\\"bar\\"],\\"mappings\\":\\";;;;;mHAAAA,MAAM,CAANA,QAAiB,SAAU,CACzBC,GAAG,EAAG,iDACJ,MAAO,CAAC,CAAR,KACD,CAHwB,CAA3BD,C\\",\\"file\\":\\"main.js\\",\\"sourcesContent\\":[\\"module.exports = class Foo {\\\\n  bar() {\\\\n    return !!this;\\\\n  }\\\\n};\\\\n\\"],\\"sourceRoot\\":\\"\\"}"`;
+
+exports[`sourcemap files on by default: errors 1`] = `Array []`;
+
+exports[`sourcemap files on by default: warnings 1`] = `Array []`;
